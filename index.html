@@ -5,6 +5,48 @@
     <title>Styling Exercise</title>
     <style>
         /* Your CSS code goes here */
+        .header {
+            background-color: dimgray;
+            font-size: 20px;
+
+        }
+        .main {
+            background-color: darkolivegreen;
+        }
+        .footer {
+            background-color: coral;
+        }
+        h1{
+            color: beige;     
+        }
+        p {
+            font-size: 20px;
+            color: darkmagenta;
+        }
+        #firstlistitems{
+            border: 1.5px solid blue;
+            color: brown;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: black;
+        }
+        main p::first-letter { font-size: 1.2em; font-weight: bold; color: red; }
+        .header {
+            padding: 20px;
+            border: 20px;
+            margin: 20px;
+        }
+        .main {
+            padding: 20px;
+            border: 20px;
+            margin: 20px;
+        }
+        .footer {
+            padding: 20px;
+            border: 20px;
+            margin: 20px;
+        }
     </style>
 </head>
 
@@ -21,8 +63,8 @@
     </header>
     <main class="main">
         <h2>List of Items</h2>
-        <ul>
-            <li id="first-item">Item 1</li>
+        <ul id="firstlistitems">
+            <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
         </ul>
